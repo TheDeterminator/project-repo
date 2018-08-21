@@ -10,14 +10,6 @@ Below please find a series of 13 code challenges to be completed in JavaScript. 
 
    Write a function, `reverseArray()`, that takes in an array as an argument and returns a new array with the elements in the reverse order. **Do not use built-in methods ([e.g., `.reverse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)).**
    ```
-   function reverseArray(arr) {
-     let reversedArray = [];
-     for (let i=arr.length-1; i>=0; i--) {
-     reversedArray.push(arr[i]);
-   }
-  return reversedArray;
-  }
-
    const sentence = ['sense.','make', 'all', 'will', 'This'];
    reverseArray(sentence);
    // Should return ['This', 'will', 'all', 'make', 'sense.'];
