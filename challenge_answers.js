@@ -52,4 +52,47 @@ const numbers = [5, 3, 9, 30];
  As you can see, you must use a different variable (I have chosen 'j' here) in order to
  compare properly */
 
- 
+ //Challenge Five Part 1
+ function declineEverything(arr) {
+  const politelyDecline = (veg) => {
+      console.log('No ' + veg + ' please. I will have pizza with extra cheese.');
+}
+
+arr.forEach(element => {
+  return politelyDecline(element);
+})
+}
+
+const veggies = ['broccoli', 'spinach', 'cauliflower', 'broccoflower'];
+
+declineEverything(veggies);
+
+//Challenge Five Part 2
+const acceptEverything = (arr) => {
+  const grudginglyAccept = (veg) => {
+    console.log(`Ok, I guess I will eat some ${veg}`)
+  }
+
+  arr.forEach(element => {
+    return grudginglyAccept(element);
+  })
+}
+
+const veggies = ['broccoli', 'spinach', 'cauliflower', 'broccoflower'];
+
+acceptEverything(veggies);
+
+//Challenge Six
+const squareNums = (numbers) => {
+  let squaredArray = [];
+  const toSquare = num => num * num;
+  squaredArray = numbers.map(number => {
+    return toSquare(number);
+  })
+  return squaredArray;
+}
+
+const numbers = [2, 7, 9, 171, 52, 33, 14]
+squareNums(numbers);
+
+//Challenge Seven
