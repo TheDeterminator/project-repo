@@ -113,3 +113,12 @@ shoutGreetings(greetings);
 //<--BONUS CHALLENGES!-->
 
 //Challenge Eight
+const sortYears = (yearsArray) => {
+  return yearsArray.sort((smaller, larger) => {
+    return larger - smaller;
+  })
+}
+
+const years = [1996, 2002, 2018, 3050, 2030];
+sortYears(years);
+//Should print [ 3050, 2030, 2018, 2002, 1996 ]
