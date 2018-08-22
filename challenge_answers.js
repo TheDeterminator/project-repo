@@ -173,4 +173,4 @@ const dogFactory = (name, breed, weight) => {
 }
 
 dogFactory('Joe', 'Pug', 27)
-// Should return { name: 'Joe', breed: 'Pug', weight: 27 }
+// Should return { name: 'Joe', breed: 'Pug', weight: 27kg }
