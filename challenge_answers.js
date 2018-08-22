@@ -96,3 +96,20 @@ const numbers = [2, 7, 9, 171, 52, 33, 14]
 squareNums(numbers);
 
 //Challenge Seven
+const shoutGreetings = (greetingsArray) => {
+  let shoutedGreetings = [];
+  const shouter = greeting => greeting.toUpperCase() + '!';
+
+  shoutedGreetings = greetingsArray.map(greeting => {
+    return shouter(greeting);
+  })
+  return shoutedGreetings;
+}
+
+const greetings = ['hello', 'hi', 'heya', 'oi', 'hey', 'yo'];
+shoutGreetings(greetings);
+// Should print [ 'HELLO!', 'HI!', 'HEYA!', 'OI!', 'HEY!', 'YO!' ]
+
+//<--BONUS CHALLENGES!-->
+
+//Challenge Eight
