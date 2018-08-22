@@ -135,3 +135,18 @@ let arr1 = ['this', 'not this', 'nor this'];
 let arr2 = ['thing 1', 'thing 2', 'this'];
 
 justCoolStuff(arr1, arr2); // Should return ['this']
+
+//Challenge Ten
+const isTheDinnerVegan = foodArray => {
+  for (let i=0; i<foodArray.length; i++) {
+    if (foodArray[i].source !== 'plant') {
+      return false;
+      break;
+    }
+  }
+  return true;
+}
+
+const meal = [{name: 'arugula', source: 'plant'}, {name: 'tomatoes', source: 'plant'}, {name: 'lemon', source:'plant'}, {name: 'olive oil', source: 'plant'}];
+
+isTheDinnerVegan(meal); // Should return true
