@@ -18,6 +18,14 @@ function greetAliens(arr) {
   }
 }
 
+const aliens = ["Blorgous", "Glamyx", "Wegord", "SpaceKing"];
+greetAliens(aliens);
+// Should print:
+// Oh powerful Blorgous, we humans offer our unconditional surrender!
+// Oh powerful Glamyx, we humans offer our unconditional surrender!
+// Oh powerful Wegord, we humans offer our unconditional surrender!
+// Oh powerful SpaceKing, we humans offer our unconditional surrender!
+
 //Challenge 3
 function convertToBaby(arr) {
   let babyArray = []
@@ -26,6 +34,10 @@ function convertToBaby(arr) {
   }
   return babyArray;
 }
+
+const animals = ['panda', 'turtle', 'giraffe', 'hippo', 'sloth', 'human'];
+convertToBaby(animals);
+// Should return ['baby panda', 'baby turtle', 'baby giraffe', 'baby hippo', 'baby sloth', 'baby human'];
 
 //Challenge 4
 const numbers = [5, 3, 9, 30];
@@ -47,7 +59,7 @@ const numbers = [5, 3, 9, 30];
  }
 
  console.log(smallestPowerOfTwo(numbers))
- // Should print the returned array [ 8, 4, 16, 32 ] instead prints the returned array [8]
+ // Should print the returned array [ 8, 4, 16, 32 ] instead prints the returned array [8]...not anymore! :)
  /* Dear student the problem was that you used your iteration variable i as a comparison variable
  As you can see, you must use a different variable (I have chosen 'j' here) in order to
  compare properly */
