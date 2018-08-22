@@ -126,10 +126,10 @@ Below please find a series of 13 code challenges to be completed in JavaScript. 
    You can test your function when you're ready by passing in the years array or by making your own array of years.
 
    ```
-   const greetings = ['hello', 'hi', 'heya', 'oi', 'hey', 'yo'];
+   const years = [1996, 2002, 2018, 3050, 2030];
 
-   console.log(shoutGreetings(greetings))
-   // Should print [ 'HELLO!', 'HI!', 'HEYA!', 'OI!', 'HEY!', 'YO!' ]
+   sortYears(years);
+   //Should print [ 3050, 2030, 2018, 2002, 1996 ]
    ```
 
 9) **justCoolStuff()**
@@ -161,7 +161,7 @@ Below please find a series of 13 code challenges to be completed in JavaScript. 
      isTheDinnerVegan(meal); // Should return true
      ```
 
-     You can test your function when you're ready by passing in the `dinner` array or by making your own.
+     You can test your function when you're ready by passing in the `meal` array or by making your own.
 
 11) **dogFactory()**
 
