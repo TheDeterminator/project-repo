@@ -48,7 +48,7 @@ const numbers = [5, 3, 9, 30];
 
  console.log(smallestPowerOfTwo(numbers))
  // Should print the returned array [ 8, 4, 16, 32 ] instead prints the returned array [8]
- /* Dear student the problem was that you used your iteration variable i as a comparison
+ /* Dear student the problem was that you used your iteration variable i as a comparison variable
  As you can see, you must use a different variable (I have chosen 'j' here) in order to
  compare properly */
 
