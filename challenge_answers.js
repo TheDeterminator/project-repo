@@ -122,3 +122,16 @@ const sortYears = (yearsArray) => {
 const years = [1996, 2002, 2018, 3050, 2030];
 sortYears(years);
 //Should print [ 3050, 2030, 2018, 2002, 1996 ]
+
+//Challenge Nine
+const justCoolStuff = (arr1, arr2) => {
+  let filteredArray = arr1.filter(element => {
+    return arr2.includes(element);
+  })
+  return filteredArray;
+}
+
+let arr1 = ['this', 'not this', 'nor this'];
+let arr2 = ['thing 1', 'thing 2', 'this'];
+
+justCoolStuff(arr1, arr2); // Should return ['this']
